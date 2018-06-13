@@ -1,0 +1,27 @@
+{
+  "name": "youtube-to-mp3-site",
+  "version": "1.0.0",
+  "description": "Convert YouTube videos to mp3 or mp4 with this website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "YouTube",
+    "mp3",
+    "mp4",
+    "convert"
+  ],
+  "private": true,
+  "author": "Gymnophoria",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "youtube-playlist-info": "^1.1.2",
+    "ytdl-core": "^0.20.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1"
+  }
+}

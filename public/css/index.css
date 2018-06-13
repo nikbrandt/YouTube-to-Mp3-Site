@@ -1,0 +1,52 @@
+.heading-5 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    margin-bottom: 30px;
+}
+
+label::after, label::before {
+    margin: 2px 0 0 10px;
+}
+
+label::before {
+    margin-top: 4px !important;
+}
+
+.advanced-options li {
+    float: left;
+}
+
+.daddy ul {
+    border: 1px solid #26a69a;
+    height: 43px;
+    border-radius: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.middle-child {
+    padding: 0;
+    border-right: none;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.middle-child:last-child {
+    margin-right: 0;
+}
+
+.little-child li {
+    padding: 10px;
+    border-right: 1px solid #26a69a;
+}
+
+.little-child li:last-child {
+    border-right: none;
+}
+
+.little-child li:hover {
+    background-color: #90e6de;
+}

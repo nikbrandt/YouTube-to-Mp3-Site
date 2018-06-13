@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>YouTube to Mp3/4</title>
+        <link rel="icon" href="public/images/icon.png">
+    
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
+        <link rel="stylesheet" href="public/css/index.css"/>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper blue darken-2 z-depth-5">
+                <a href="#" class="brand-logo center">YouTube to Mp3/4</a>
+            </div>
+        </nav>
+    
+        <div class="container">
+            <div class="row">
+                <form id="form" method="post" action="/">
+                    <div class="col s12">
+                        <h5 class="heading-5">Insert a YouTube playlist or video URL.</h5>
+                        <div class="input-field">
+                            <input name="url" id="url" type="text">
+                            <label for="url" data-error="Please insert a valid URL." data-success="">YouTube URL</label>
+                        </div>
+                    </div>
+                    <div class="col s10 m9 l11 offset-s2 offset-m3 offset-l1">
+                        <button id="mp3" class="btn waves-effect waves-light" type="submit" name="mp3">MP3
+                            <i class="material-icons left">library_music</i></button>
+                        <button id="mp4" class="btn waves-effect waves-light" type="submit" name="mp4">MP4
+                            <i class="material-icons left">videocam</i>
+                        </button>
+	                    <!-- <input id="advanced-box" type="checkbox" class="filled-in"/>
+	                    <label for="advanced-box">Advanced</label> -->
+                    </div>
+                </form>
+	            <!-- <div class="advanced-options col s10 m9 l11 offset-s2 offset-m3 offset-l1">
+		            <ul class="daddy">
+			            <li class="middle-child"><ul class="little-child">
+				            <li class="little-child">128</li>
+				            <li class="little-child">96</li>
+				            <li class="little-child">64</li>
+				            <li class="little-child">32</li>
+			            </ul></li>
+			            <li class="middle-child"><ul class="little-child">
+				            <li class="little-child">mp4</li>
+				            <li class="little-child">mov</li>
+			            </ul></li>
+			            <li class="middle-child"><ul class="little-child">
+				            <li class="little-child">1080p60</li>
+				            <li class="little-child">720p60</li>
+				            <li class="little-child">480p</li>
+				            <li class="little-child">320p</li>
+			            </ul></li>
+		            </ul>
+	            </div> -->
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="public/js/index.js"></script>
+    </body>
+</html>
