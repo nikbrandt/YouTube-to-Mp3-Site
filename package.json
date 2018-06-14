@@ -12,7 +12,10 @@
     "mp4",
     "convert"
   ],
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gymnophoria/YouTube-to-Mp3-Site.git"
+  },
   "author": "Gymnophoria",
   "dependencies": {
     "body-parser": "^1.18.2",
