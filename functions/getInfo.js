@@ -35,7 +35,7 @@ function getInfo (type, url) {
 				author: info.author.name,
 				authorURL: info.author.channel_url,
 				length: `${secObj.h ? `${secObj.h}h ` : ''}${secObj.m ? `${secObj.m}m ` : ''}${secObj.s}s`,
-				thumbnail: info.thumbnail_url
+				thumbnail: info.thumbnail_url || info.player_response.videoDetails.thumbnail.thumbnails[0].url
 			})
 		} else if (type === 'playlist') {
 			playlistInfo(config.youtubeKey, url, items => {
