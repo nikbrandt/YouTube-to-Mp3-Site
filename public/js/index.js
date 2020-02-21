@@ -80,8 +80,6 @@ function pollStatus (id, htmlUUID) {
 		if (!response) return;
 		let loader = $(`#loader${htmlUUID}`);
 		loader.css('width', response.percent + '%');
-		console.log(`#loader${htmlUUID}`);
-		console.log(response.percent);
 		if (response.percent >= 100) {
 			setTimeout(() => {
 				loader.parent().addClass('hide');
